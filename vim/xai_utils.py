@@ -24,9 +24,7 @@ def generate_raw_attn(model, image, start_layer=15):
     for layeridx in range(len(model.layers)):
         attn_heads = model.layers[layeridx].mixer.xai_b
         attn_heads = (attn_heads - attn_heads.min()) / (attn_heads.max() - attn_heads.min())
-        fused = attn_heads
-        avg_heads = (fused.sum(dim=1) / fused.shape[1]).detach()
-        fused = avg_heads 
+        avg_heads = (attn_heads.sum(dim=1) / attn_heads.shape[1]).detach()
         all_layer_attentions.append(avg_heads)
     p = torch.cat(all_layer_attentions[start_layer:], dim=0).mean(dim=0).unsqueeze(0)
     p = torch.cat([p[:,:cls_pos], p[:,(cls_pos+1):]], dim=-1)
