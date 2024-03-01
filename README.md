@@ -1,7 +1,7 @@
 <div align="center">
 <h3>The Hidden Attention of Mamba Models</h3>
 
-Ameen Ali<sup>1</sup> \*,Itamar Zimerman<sup>1</sup> \*,Lior Wolf<sup>1</sup>
+Ameen Ali<sup>1</sup> \*,Itamar Zimerman<sup>1</sup> \* and Lior Wolf<sup>1</sup>
 
 <sup>1</sup>  Tel Aviv University 
 (\*) equal contribution
