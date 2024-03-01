@@ -71,4 +71,4 @@ Following the instructions in <b>vmamba_xai.ipynb</b> notebook, in order to appl
 
 
 ## Acknowledgement
-This repository is heavily based on [Vim](https://github.com/hustvl/Vim) and [Transformer-Explainability](https://github.com/hila-chefer/Transformer-Explainability. Thanks for their wonderful works.
+This repository is heavily based on [Vim](https://github.com/hustvl/Vim) and [Transformer-Explainability](https://github.com/hila-chefer/Transformer-Explainability). Thanks for their wonderful works.
