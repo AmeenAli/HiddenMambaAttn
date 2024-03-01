@@ -49,14 +49,14 @@ We have used the offical weights provided by [Vim](https://github.com/hustvl/Vim
 | [Vim-small<sup>+</sup>](https://huggingface.co/hustvl/Vim-small-midclstok)    |       26M       |   81.6   | 95.4 | https://huggingface.co/hustvl/Vim-small-midclstok |
 
 **Notes:**
-- <b> In all of our experimnts, we have worked with [Vim-small](https://huggingface.co/hustvl/Vim-small-midclstok).</b>
+- <b> In all of our experiments, we have worked with [Vim-small](https://huggingface.co/hustvl/Vim-small-midclstok).</b>
 
 ## Vision-Mamba Explainability Notebook:
 <div align="center">
 <img src="assets/xai_gradmethod.jpg" alt="Left Image" align="center"  width="1000" height="300">
 </div>
 <br>
-Following the instructions in <b>vmamba_xai.ipynb</b> notebook, in order to apply a single-image inference for the 3 introduced methods in the paper.
+Follow the instructions in <b>vim/vmamba_xai.ipynb</b> notebook, in order to apply a single-image inference for the 3 introduced methods in the paper.
 <br>
 <div align="center">
 <img src="assets/notebook.png" alt="Left Image" align="center"  width="600" height="600">
