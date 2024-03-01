@@ -56,7 +56,7 @@ We have used the offical weights provided by [Vim](https://github.com/hustvl/Vim
 <img src="assets/xai_gradmethod.jpg" alt="Left Image" align="center"  width="1000" height="300">
 </div>
 <br>
-Following the instructions in <b>vmamba_xai.ipynb</b> notebook, in order to apply a single-image inference for the 3 introducted methods in the paper.
+Following the instructions in <b>vmamba_xai.ipynb</b> notebook, in order to apply a single-image inference for the 3 introduced methods in the paper.
 <br>
 <div align="center">
 <img src="assets/notebook.png" alt="Left Image" align="center"  width="600" height="600">
@@ -71,4 +71,4 @@ Following the instructions in <b>vmamba_xai.ipynb</b> notebook, in order to appl
 
 
 ## Acknowledgement
-This repository is heavily based on [Vim](https://github.com/hustvl/Vim) and ([Transformer-Explainability](https://github.com/hila-chefer/Transformer-Explainability. Thanks for their wonderful works.
+This repository is heavily based on [Vim](https://github.com/hustvl/Vim) and [Transformer-Explainability](https://github.com/hila-chefer/Transformer-Explainability. Thanks for their wonderful works.
