@@ -82,6 +82,8 @@ Follow the instructions in <b>vim/vmamba_xai.ipynb</b> notebook, in order to app
     <strike><li><input type="checkbox" id="task1" checked disabled><label for="task1">XAI - Single Image Inference Notebook</label></li></strike>
     <li><input type="checkbox" id="task2" disabled><label for="task2">XAI - Segmentation Experimnts</label></li>
     <li><input type="checkbox" id="task3" disabled><label for="task3">XAI - Pertubation Experimnts </label></li>
+    <li><input type="checkbox" id="task3" disabled><label for="task3">NLP Experimnts </label></li>
+
 </ul>
 
 
