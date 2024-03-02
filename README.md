@@ -13,6 +13,13 @@ Ameen Ali<sup>1</sup> \*,Itamar Zimerman<sup>1</sup> \* and Lior Wolf<sup>1</sup
 ## Official PyTorch Implementation of "The Hidden Attention of Mamba Models"
 
 The Mamba layer offers an efficient state space model (SSM) that is highly effective in modeling multiple domains including long-range sequences and images. SSMs are viewed as dual models, in which one trains in parallel on the entire sequence using convolutions, and deploys in an autoregressive manner. We add a third view and show that such models can be viewed as attention-driven models. This new perspective enables us to compare the underlying mechanisms to that of the self-attention layers in transformers and allows us to peer inside the inner workings of the Mamba model with explainability methods. 
+<br>
+For the whole paper click on the icon below <br> 
+<div align="center">
+  <a href="https://github.com/AmeenAli/HiddenMambaAttn/blob/main/assets/MambaXAI.pdf">
+    <img src="assets/pdf.png" alt="Left Image" width="50" height="50">
+  </a>
+</div>
 
 <div align="center">
 <img src="assets/2.png" alt="Left Image" align="center"   width="1000" height="400">
