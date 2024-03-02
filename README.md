@@ -46,7 +46,9 @@ For the whole paper click on the icon below <br>
   - `pip install jupyter`
   
 - Install ``causal_conv1d`` and ``mamba`` from *<b>our source</b>*
-  - `pip install --editable causal-conv1d`
+  - `cd causal-conv1d`
+  - `pip install --editable .`
+  - `cd ..`
   - `pip install --editable mamba-1p1p1`
   
   
