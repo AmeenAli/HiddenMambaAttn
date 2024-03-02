@@ -1,8 +1,10 @@
 <div align="center">
-<h3>The Hidden Attention of Mamba Models</h3>
+<h1>The Hidden Attention of Mamba Models</h1>
 
 Ameen Ali<sup>1</sup> \*,Itamar Zimerman<sup>1</sup> \* and Lior Wolf<sup>1</sup>
-
+<br>
+ameenali023@gmail.com, itamarzimm@gmail.com, liorwolf@gmail.com 
+<br>
 <sup>1</sup>  Tel Aviv University 
 (\*) equal contribution
 
@@ -40,8 +42,11 @@ For the whole paper click on the icon below <br>
 - Requirements: vim_requirements.txt
   - `pip install -r vim/vim_requirements.txt`
 
+- Install jupyter
+  - `pip install jupyter`
+  
 - Install ``causal_conv1d`` and ``mamba``
-  - `pip install --editable causal_conv1d>=1.1.0`
+  - `pip install -e causal_conv1d>=1.1.0`
   - `pip install --editable mamba-1p1p1`
   
   
@@ -81,4 +86,4 @@ Follow the instructions in <b>vim/vmamba_xai.ipynb</b> notebook, in order to app
 
 
 ## Acknowledgement
-This repository is heavily based on [Vim](https://github.com/hustvl/Vim) and [Transformer-Explainability](https://github.com/hila-chefer/Transformer-Explainability). Thanks for their wonderful works.
+This repository is heavily based on [Vim](https://github.com/hustvl/Vim), [Mamba](https://github.com/state-spaces/mamba) and [Transformer-Explainability](https://github.com/hila-chefer/Transformer-Explainability). Thanks for their wonderful works.
