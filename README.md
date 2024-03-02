@@ -23,7 +23,10 @@ The Mamba layer offers an efficient state space model (SSM) that is highly effec
 - Python 3.10.13
 
   - `conda create -n your_env_name python=3.10.13`
-
+- Activate Env
+  - `conda activate your_env_name`
+- CUDA TOOLKIT 11.8
+  - `conda install nvidia/label/cuda-11.8.0::cuda-toolkit`
 - torch 2.1.1 + cu118
   - `pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118`
 
