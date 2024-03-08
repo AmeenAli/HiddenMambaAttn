@@ -51,7 +51,7 @@ You can access the paper through : <a href="https://arxiv.org/pdf/2403.01590.pdf
 
 ## Pre-Trained Weights
 
-We have used the offical weights provided by [Vim](https://github.com/hustvl/Vim), which can be downloaded from here:
+We have used the official weights provided by [Vim](https://github.com/hustvl/Vim), which can be downloaded from here:
 
 | Model | #param. | Top-1 Acc. | Top-5 Acc. | Hugginface Repo |
 |:------------------------------------------------------------------:|:-------------:|:----------:|:----------:|:----------:|
