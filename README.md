@@ -83,7 +83,7 @@ Follow the instructions in <b>vim/vmamba_xai.ipynb</b> notebook, in order to app
 
 </ul>
 
-## Citaion
+## Citation
 if you find our work useful, please consider citing us:
 <code>
 @misc{ali2024hidden,
