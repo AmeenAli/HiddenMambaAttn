@@ -83,6 +83,17 @@ Follow the instructions in <b>vim/vmamba_xai.ipynb</b> notebook, in order to app
 
 </ul>
 
-
+## Citaion
+if you find our work useful, please consider citing us:
+<code>
+@misc{ali2024hidden,
+      title={The Hidden Attention of Mamba Models}, 
+      author={Ameen Ali and Itamar Zimerman and Lior Wolf},
+      year={2024},
+      eprint={2403.01590},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+</code>
 ## Acknowledgement
 This repository is heavily based on [Vim](https://github.com/hustvl/Vim), [Mamba](https://github.com/state-spaces/mamba) and [Transformer-Explainability](https://github.com/hila-chefer/Transformer-Explainability). Thanks for their wonderful works.
