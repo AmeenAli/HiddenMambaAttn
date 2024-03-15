@@ -1,5 +1,5 @@
 <div align="center">
-<h1>The Hidden Attention of Mamba Models</h1>
+<h1> 🐍 The Hidden Attention of Mamba Models 🐍 </h1>
 
 Ameen Ali<sup>1</sup> \*,Itamar Zimerman<sup>1</sup> \* and Lior Wolf<sup>1</sup>
 <br>
@@ -85,7 +85,7 @@ Follow the instructions in <b>vim/vmamba_xai.ipynb</b> notebook, in order to app
 
 ## Citation
 if you find our work useful, please consider citing us:
-<code>
+```latex
 @misc{ali2024hidden,
       title={The Hidden Attention of Mamba Models}, 
       author={Ameen Ali and Itamar Zimerman and Lior Wolf},
@@ -94,6 +94,6 @@ if you find our work useful, please consider citing us:
       archivePrefix={arXiv},
       primaryClass={cs.LG}
 }
-</code>
+```
 ## Acknowledgement
 This repository is heavily based on [Vim](https://github.com/hustvl/Vim), [Mamba](https://github.com/state-spaces/mamba) and [Transformer-Explainability](https://github.com/hila-chefer/Transformer-Explainability). Thanks for their wonderful works.
