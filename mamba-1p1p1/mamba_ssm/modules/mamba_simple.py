@@ -56,6 +56,7 @@ class Mamba(nn.Module):
     ):
         factory_kwargs = {"device": device, "dtype": dtype}
         super().__init__()
+        self.compute_attn_matrix = False
         self.d_model = d_model
         self.d_state = d_state
         self.d_conv = d_conv
@@ -210,6 +211,7 @@ class Mamba(nn.Module):
                     self.D.float(),
                     delta_bias=self.dt_proj.bias.float(),
                     delta_softplus=True,
+                    compute_attn_matrix = self.compute_attn_matrix,
                 )    
             elif self.bimamba_type == "v2":
                 A_b = -torch.exp(self.A_b_log.float())
@@ -225,6 +227,7 @@ class Mamba(nn.Module):
                     self.D.float(),
                     delta_bias=self.dt_proj.bias.float(),
                     delta_softplus=True,
+                    compute_attn_matrix = self.compute_attn_matrix,
                 )
                 out_b, xai_b = mamba_inner_fn_no_out_proj(
                     xz.flip([-1]),
@@ -238,11 +241,15 @@ class Mamba(nn.Module):
                     self.D_b.float(),
                     delta_bias=self.dt_proj_b.bias.float(),
                     delta_softplus=True,
+                    compute_attn_matrix = self.compute_attn_matrix,
                 )
-                
-                xai_vector = xai_a["xai_vector"]
-                xai_vector[:,:,99:] = xai_b["xai_vector"].flip([-1])[:,:,99:]
-                self.xai_b = xai_vector
+                if self.compute_attn_matrix:
+                    self.attn_matrix_a = xai_a["attention_matrix"]
+                    self.attn_matrix_b = xai_b["attention_matrix"].flip([-1,-2])
+                else:
+                    xai_vector = xai_a["xai_vector"]
+                    xai_vector[:,:,99:] = xai_b["xai_vector"].flip([-1])[:,:,99:]
+                    self.xai_b = xai_vector
                 
                 # F.linear(rearrange(out_z, "b d l -> b l d"), out_proj_weight, out_proj_bias)
                 if not self.if_devide_out:
