@@ -1,5 +1,5 @@
 <div align="center">
-<h1> 🐍 The Hidden Attention of Mamba Models 🐍 </h1>
+<h1> 🐍 The Hidden Attention of Mamba Models 🐍 (ACL 2025)</h1>
 
 Ameen Ali<sup>1</sup> \*,Itamar Zimerman<sup>1</sup> \* and Lior Wolf<sup>1</sup>
 <br>
@@ -85,13 +85,25 @@ For the segmentation experiment, please check out our [follow-up work](https://g
 ## Citation
 if you find our work useful, please consider citing us:
 ```latex
-@misc{ali2024hidden,
-      title={The Hidden Attention of Mamba Models}, 
-      author={Ameen Ali and Itamar Zimerman and Lior Wolf},
-      year={2024},
-      eprint={2403.01590},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{ali-etal-2025-hidden,
+    title="The Hidden Attention of Mamba Models",
+    author = "Ali, Ameen Ali  and
+      Zimerman, Itamar  and
+      Wolf, Lior",
+    editor="Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle="Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month=jul,
+    year="2025",
+    address="Vienna, Austria",
+    publisher="Association for Computational Linguistics",
+    url="https://aclanthology.org/2025.acl-long.76/",
+    doi="10.18653/v1/2025.acl-long.76",
+    pages="1516--1534",
+    ISBN="979-8-89176-251-0",
+    abstract="The Mamba layer offers an efficient selective state-space model (SSM) that is highly effective in modeling multiple domains, includingNLP, long-range sequence processing, and computer vision. Selective SSMs are viewed as dual models, in which one trains in parallel on the entire sequence via an IO-aware parallel scan, and deploys in an autoregressive manner. We add a third view and show that such models can be viewed as attention-driven models. This new perspective enables us to empirically and theoretically compare the underlying mechanisms to that of the attention in transformers and allows us to peer inside the inner workings of the Mamba model with explainability methods. Our code is publicly available."
 }
 ```
 ## Acknowledgement
